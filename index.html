@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/chapeu logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@100;300;500&display=swap"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="./src/css/reset.css">
+
+        <link rel="stylesheet" href="./src/css/estilos.css">
+
+        <link rel="stylesheet" href="./src/css/resposivo.css">
+
+
+
+    <title>Hogwarts Legacy - O Jogo</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="'video" autoplay loop muted>
+            <source src="./src/video/Video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo.webp" alt="logo wizarding world">
+        </a>
+        <nav class="menu">
+            <ul class="menu">
+                <li><a href="https://store.steampowered.com/app/990080/Hogwarts_Legacy/" target="_blank">STEAM</a></li>
+                <li><a href="https://store.playstation.com/pt-br/product/UP1018-CUSA12824_00-HOGWARTSLEGACY01" target="_blank">PSN</a></li>
+                <li><a href="https://www.xbox.com/pt-BR/games/hogwarts-legacy" target="_blank">XBOX</a></li>
+                <li><a href="https://www.hogwartslegacy.com/pt-br" target="_blank">Site Oficial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/titulo2.png" alt="imagem do titulo do jogo">
+            <p class="descricao">Hogwarts Legacy é um RPG de ação e mundo aberto ambientado no mundo apresentado nos livros de Harry Potter. Agora você pode assumir o controle da ação e criar sua própria aventura. Descubra a sensação de viver em Hogwarts enquanto faz aliados, luta contra bruxos das trevas e, por fim, decide o destino do mundo bruxo. Seu legado é o que você faz dele.
+            </p>
+            <button class="botao-trailer">Assista ao Trailer</button>
+        </div>
+        <a>
+            <img class="bruxo" src="./src/imagens/hipogrifo logo.png"/></a>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+             <span class="fechar-modal">X</span>   
+             <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/wy1EoE0OU_E" title="Trailer oficial" frameborder="1"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+   </body>
+</html>
